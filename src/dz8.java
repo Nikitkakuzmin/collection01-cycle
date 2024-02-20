@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class dz8 {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int m = in.nextInt();
+        int sum  = 0;
+        for(int i = n; i <= m; i++){
+            if(n % 2 ==0){
+                sum = sum +n;
+
+            }
+            n++;
+
+
+        }
+        System.out.println(sum);
+    }
+}
